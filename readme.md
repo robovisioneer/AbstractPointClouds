@@ -1,9 +1,9 @@
 <h1 align="center">Hy 👋, ich bin Christian Wiegel</h1>
 <p align="left">
-Für meine Masterarbeit habe ich Punktwolken von Körpern mit dem SHOT-Decriptor der Point Cloud Library (PCL) analysiert. Vergleicht man die SHOT-Descriptoren zweier Punktwolken, kann man die Ähnlichkeit der beiden Körper berechnen. Das Programm gibt den Unterschied / die Differenz aus. Diese Größe ist gegenläufig zur Ähnlichkeit. Zwei Punktwolken vom selben Körper haben einen Unterschied / eine Differenz von 0.
+Für meine Masterarbeit habe ich Punktwolken von Koerpern mit dem SHOT-Decriptor der Point Cloud Library (PCL) analysiert. Vergleicht man die SHOT-Descriptoren zweier Punktwolken, kann man die Aehnlichkeit der beiden Koerper berechnen. Das Programm gibt den Unterschied / die Differenz aus. Diese Groesse ist gegenläufig zur Ähnlichkeit. Zwei Punktwolken vom selben Koerper haben einen Unterschied / eine Differenz von 0.
 </p>
 <p align="left">
-Ich habe mich immer gefragt, was dabei herauskommt, wenn man mit abstrakten geometrischen Körpern arbeitet. Ich habe deswegen Punktewolken von abstrakten geometrischen Körpern erstellt:
+Ich habe mich immer gefragt, was dabei herauskommt, wenn man mit abstrakten geometrischen Koerpern arbeitet. Ich habe deswegen Punktewolken von abstrakten geometrischen Körpern erstellt:
 </p>
 
 <p align="left">

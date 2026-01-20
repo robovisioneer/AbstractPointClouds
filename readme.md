@@ -1,6 +1,6 @@
 <h1 align="center">Hy 👋, ich bin Christian Wiegel</h1>
 <p align="left">
-Bei meiner Masterarbeit, habe ich Punktwolken von Körpern mit dem SHOT-Decriptor der Point Cloud Library (PCL) analysiert. Vergleicht man die SHOT-Descriptoren zweier Punktwolken, kann man die Ähnlichkeit der beiden Körper berechnen. Das Programm gibt den Unterschied / die Differenz aus. Diese Größen sind gegenläufig zur Ähnlichkeit. Zwei Punktwolken vom selben Körper haben einen Unterschied / eine Differenz von 0.
+Für meine Masterarbeit habe ich Punktwolken von Körpern mit dem SHOT-Decriptor der Point Cloud Library (PCL) analysiert. Vergleicht man die SHOT-Descriptoren zweier Punktwolken, kann man die Ähnlichkeit der beiden Körper berechnen. Das Programm gibt den Unterschied / die Differenz aus. Diese Größe ist gegenläufig zur Ähnlichkeit. Zwei Punktwolken vom selben Körper haben einen Unterschied / eine Differenz von 0.
 </p>
 <p align="left">
 Ich habe mich immer gefragt, was dabei herauskommt, wenn man mit abstrakten geometrischen Körpern arbeitet. Ich habe deswegen Punktewolken von abstrakten geometrischen Körpern erstellt:
@@ -57,11 +57,11 @@ Die Unterschiede ergeben sich wie folgt:
 </p>
 
 <p align="left">
-Dass der Unterschied zwischen Kugel und Zylinder am groessten und der Unterschied zwischen Kegel und Zylinder am geringsten ausfällt, macht für mich sehr viel Sinn.
+Dass der Unterschied zwischen Kugel und Zylinder am groessten und der Unterschied zwischen Kegel und Zylinder am geringsten ausfaellt, macht für mich sehr viel Sinn.
 </p>
 
 <p align="left">
-Der SHOT-Descriptor ist auf gekrümmte Flächen angewiesen; von einem idealen Würfel, laesst er sich nicht berechnen. Pyramiden und Tetraeder habe ich daher gar nicht erst probiert.
+Der SHOT-Descriptor ist auf gekruemmte Flaechen angewiesen; von einem idealen Wuerfel, laesst er sich nicht berechnen. Pyramiden und Tetraeder habe ich daher gar nicht erst probiert.
 </p>
 
 <h3 align="left">Languages and Tools:</h3>

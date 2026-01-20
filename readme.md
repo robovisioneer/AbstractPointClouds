@@ -5,10 +5,12 @@ Bei meiner Masterarbeit, habe ich Punktwolken von Körpern mit dem SHOT-Decripto
 <p align="left">
 Ich habe mich immer gefragt, was dabei herauskommt, wenn man mit abstrakten geometrischen Körpern arbeitet. Ich habe deswegen Punktewolken von abstrakten geometrischen Körpern erstellt:
 </p>
-
+<p align="left">
 Eine Kugel:
-<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Kegel.png" alt="cplusplus" width="40" height="40"/>
-
+</p>
+<p align="left">
+<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Kegel.png" alt="cplusplus" width="100" height="100"/>
+</p>
 Ein Kegel:
 
 Ein Zylinder:

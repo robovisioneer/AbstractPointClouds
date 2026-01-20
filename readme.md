@@ -11,7 +11,7 @@ Eine Kugel:
 </p>
 
 <p align="left">
-<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Kegel.png" alt="cplusplus" width="100" height="100"/>
+<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Kugel.png" alt="cplusplus" width="100" height="100"/>
 </p>
 
 <p align="left">
@@ -27,7 +27,11 @@ Ein Zylinder:
 </p>
 
 <p align="left">
-<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Kegel.png" alt="cplusplus" width="100" height="100"/>
+<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Zylinder.png" alt="cplusplus" width="100" height="100"/>
+</p>
+
+<p align="left">
+Die Unterschiede ergeben sich wie folgt:
 </p>
 
 <p align="left">
@@ -50,6 +54,14 @@ Ein Zylinder:
     </tr>
   </tbody>
 </table>
+</p>
+
+<p align="left">
+Dass der Unterschied zwischen Kugel und Zylinder am groessten und der Unterschied zwischen Kegel und Zylinder am geringsten ausfällt, macht für mich sehr viel Sinn.
+</p>
+
+<p align="left">
+Der SHOT-Descriptor ist auf gekrümmte Flächen angewiesen; von einem idealen Würfel, laesst er sich nicht berechnen. Pyramiden und Tetraeder habe ich daher gar nicht erst probiert.
 </p>
 
 <h3 align="left">Languages and Tools:</h3>

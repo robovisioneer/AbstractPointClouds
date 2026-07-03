@@ -64,5 +64,85 @@ Dass der Unterschied zwischen Kugel und Zylinder am groessten und der Unterschie
 Der SHOT-Descriptor ist auf gekruemmte Flaechen angewiesen; von einem idealen Wuerfel, laesst er sich nicht berechnen. Pyramiden und Tetraeder habe ich daher gar nicht erst probiert.
 </p>
 
+<p align="left">
+Fuer ungekruemmte Oberflaechen ist der FPFH-Descriptor besser geeignet. Deswegen habe ich nochmal die Punktwolken von Tetraeder, Pyramide, Octaeder und Wuerfel erstellt und sie mit dem FPFH-Descriptor verglichen.
+</p>
+
+<p align="left">
+Ein Tetraeder:
+</p>
+
+<p align="left">
+<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Tetrae.png" alt="cplusplus" width="100" height="100"/>
+</p>
+
+<p align="left">
+Eine Pyramide:
+</p>
+
+<p align="left">
+<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Pyr.png" alt="cplusplus" width="100" height="100"/>
+</p>
+
+<p align="left">
+Ein Oktaeder:
+</p>
+
+<p align="left">
+<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Oct.png" alt="cplusplus" width="100" height="100"/>
+</p>
+
+<p align="left">
+Ein Wuerfel:
+</p>
+
+<p align="left">
+<img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/PCL_Wuer.png" alt="cplusplus" width="100" height="100"/>
+</p>
+
+<p align="left">
+Vergleicht man diese abstrakten Punktwolken mit dem FPFH-Descriptor ergeben sich folgender Unterschiede (in Tsd.):
+</p>
+
+<p align="left">
+<table border="1">
+    <thead>
+        <th></th>
+        <th>Pyramide</th>
+        <th>Oktaeder</th>
+        <th>Wuerfel</th>
+    </tr>
+    </thead>
+    <tbody>
+        <th>Tetraeder</th>
+        <td>648</td>
+        <td>3553</td>
+        <td>3092</td>
+    </tr>
+    <tr>
+        <th>Pyramide</th>
+        <td>0</td>
+        <td>2232</td>
+        <td>2888</td>
+    </tr>
+        <tr>
+        <th>Oktaeder</th>
+        <td></td>
+        <td>0</td>
+        <td>1952</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+
+<p align="left">
+Interpretation: Am aehnlichsten sind sind sich der Tetraeder und die Pyramide - also die Pyramide mit dreieckigen und die Pyramide mit quadratischen Grund. Am naechstaehnlichsten sind sich der Oktaeder und der Wuerfel, wahrscheinlich weil sich die Knicke der Kanten des Oktaeders auch in der Naehe von 90 Grad aufhalten. Relativ aehnlich sind sich auch noch die Pyramide und der Oktaeder, welcher zwei aufeinander stehende Pyramiden darstellt.
+</p>
+
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pointclouds.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/logo.png" alt="pcl" width="126" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
+</a>  
+<a href="https://pointclouds.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://github.com/robovisioneer/AbstractPointClouds/blob/main/logo.png" alt="pcl" width="126" height="40"/> 
+</a> </p>
